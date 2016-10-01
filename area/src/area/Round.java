@@ -8,6 +8,7 @@ public class Round extends Figure {
 	}
 	double r;
 	@Override
+	//Определяем площадь круга
 	public double getArea() {
 		return 3.14*r*r;
 	}

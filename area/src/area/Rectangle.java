@@ -10,6 +10,7 @@ public class Rectangle extends Figure{
 	}
 	double a,b;
 	@Override
+	//Определяем площадь прямоугольника
 	public double getArea() {
 		return a*b;
 	}

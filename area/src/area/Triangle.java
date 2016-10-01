@@ -8,6 +8,7 @@ public class Triangle extends Figure{
 	}
 	double a,h;
 	@Override
+	//Определяем площадь треугольника
 	public double getArea() {
 		return 0.5*a*h;
 	}
